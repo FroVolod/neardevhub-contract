@@ -9,7 +9,7 @@ repository = "https://github.com/FroVolod/neardevhub-contract"
 image = "docker.io/sourcescan/cargo-near:0.6.0"
 image_digest = "sha256:bf488476d9c4e49e36862bbdef2c595f88d34a295fd551cc65dc291553849471"
 container_build_command = ["cargo", "near", "build", "--no-docker", "--locked", "--no-abi", "--color", "--auto"]
-repo_git_url = "https://github.com/near/cargo-near-new-project-template.git"
+repository = "https://github.com/near/cargo-near-new-project-template.git"
 
 [lib]
 crate-type = ["cdylib"]
